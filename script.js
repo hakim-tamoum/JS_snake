@@ -60,10 +60,10 @@ window.onload = function(){
         ctx.fillStyle = "#000";
         ctx.font = "bold 90px arial";
         ctx.strokeStyle = "#fff";
-        ctx.strokeText("khalad JSK", centreX, centreY);
-        ctx.fillText("khalad JSK", centreX, centreY);
+        ctx.strokeText("GAME OVER", centreX, centreY);
+        ctx.fillText("GAME OVER", centreX, centreY);
         ctx.font = "bold 20px arial";
-        ctx.fillText("Appuyer sur la touche jsk pour rejouer", 390, 500);
+        ctx.fillText("Appuyer sur la touche espace pour rejouer", 390, 500);
         ctx.restore();
     }
     function drawScore(){
